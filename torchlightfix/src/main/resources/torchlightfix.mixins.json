@@ -4,7 +4,9 @@
   "package": "com.example.torchlightfix.mixin",
   "compatibilityLevel": "JAVA_25",
   "mixins": [
-    "BlockAndTintGetterMixin",
     "LevelReaderMixin"
+  ],
+  "client": [
+    "BlockAndTintGetterMixin"
   ]
 }

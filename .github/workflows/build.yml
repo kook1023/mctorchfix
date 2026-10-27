@@ -21,11 +21,11 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
 
       - name: Build
-        working-directory: torchlightFix
+        working-directory: torchlightfix
         run: ./gradlew build --no-daemon
 
       - name: Upload jar
         uses: actions/upload-artifact@v4
         with:
           name: torchlightfix-jar
-          path: torchlightFix/build/libs/*.jar
+          path: torchlightfix/build/libs/*.jar

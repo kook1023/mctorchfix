@@ -1,4 +1,4 @@
-# TorchlightFix
+# Torchlight Fix
 
 TorchlightFix is a small Fabric mod that helps prevent darkness-based events from triggering in mods that check Minecraft's light levels.
 

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "torchlightfix",
+  "version": "${version}",
+  "name": "Torch Light Fix",
+  "description": "While you hold a torch, other mods see your light level as 5+ instead of 0.",
+  "license": "MIT",
+  "environment": "*",
+  "mixins": ["torchlightfix.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25"
+  }
+}

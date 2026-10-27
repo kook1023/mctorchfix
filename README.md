@@ -39,3 +39,11 @@ TorchlightFix has been tested with **The Murk – Darkness Consumes**. Other mod
 ## Feedback
 
 If a mod that relies on light levels still triggers darkness-based events while you're holding a torch, report which mod and Minecraft version you're using, along with your log if available.
+
+## Bug Reports
+
+Found a bug or compatibility issue? [Open an issue Here](https://github.com/kook1023/mctorchfix/issues).
+
+Please include your Minecraft version, Fabric Loader version, the mod you're using TorchlightFix with, and what happened. Crash logs are helpful if available.
+
+I'll look into reports as time allows.

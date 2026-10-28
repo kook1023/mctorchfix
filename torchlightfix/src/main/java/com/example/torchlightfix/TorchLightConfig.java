@@ -30,7 +30,9 @@ public final class TorchLightConfig {
     private List<String> items = List.of(
         "glowstone", "glow_berries", "shroomlight", "glow_item_frame",
         "lava_bucket", "magma_block", "ender_chest", "enchanting_table",
-        "beacon", "sea_pickle", "amethyst_cluster", "large_amethyst_bud"
+        "beacon", "sea_pickle", "amethyst_cluster", "large_amethyst_bud",
+        "blaze_powder", "blaze_rod", "redstone_block", "nether_star",
+        "end_crystal", "ender_eye"
     );
 
     @SerializedName("item_suffixes")

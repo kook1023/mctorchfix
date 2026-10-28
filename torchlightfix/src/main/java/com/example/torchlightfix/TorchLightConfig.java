@@ -32,7 +32,7 @@ public final class TorchLightConfig {
         "lava_bucket", "magma_block", "ender_chest", "enchanting_table",
         "beacon", "sea_pickle", "amethyst_cluster", "large_amethyst_bud",
         "blaze_powder", "blaze_rod", "redstone_block", "nether_star",
-        "end_crystal", "ender_eye"
+        "end_crystal", "ender_eye", "end_rod"
     );
 
     @SerializedName("item_suffixes")

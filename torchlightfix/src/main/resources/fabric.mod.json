@@ -8,7 +8,7 @@
   "environment": "*",
   "mixins": ["torchlightfix.mixins.json"],
   "entrypoints": {
-  "main": ["com.example.torchlightfix.TorchLightFix"]
+    "main": ["com.example.torchlightfix.TorchLightFix"]
     },
   "depends": {
     "fabricloader": ">=0.19.3",

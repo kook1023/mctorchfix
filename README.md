@@ -13,6 +13,7 @@ This can help with mods that use light levels to determine whether a player is i
 - TorchlightFix does **not** create real light or illuminate the surrounding area.
 - It changes the light value returned by the checks it hooks into.
 - Compatibility depends on how another mod checks light levels.
+- New default items won’t appear in an existing config. Delete torchlightfix.json to regenerate it.
 
 ## Recommended setup
 
@@ -30,7 +31,9 @@ Use TorchlightFix alongside a mod that provides dynamic lighting for held torche
 2. Download the compiled `torchlightfix` JAR.
 3. Place the JAR in your Minecraft `mods` folder.
 4. Install any required dependencies for your other mods.
-5. Launch the game and test it with the mods you want to use.
+5. Launch the game once. The mod creates `config/torchlightfix.json` on first launch.
+   Edit it to change the light level and which items count as light sources, then restart the game.
+   Test it with the mods you want to use.
 
 ## Compatibility
 

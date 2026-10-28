@@ -3,10 +3,13 @@
   "id": "torchlightfix",
   "version": "${version}",
   "name": "Torch Light Fix",
-  "description": "While you hold a torch, other mods see your light level as 5+ instead of 0.",
+  "description": "While you hold a light source, other mods see your light level as 5+ instead of 0. Configurable.",
   "license": "MIT",
   "environment": "*",
   "mixins": ["torchlightfix.mixins.json"],
+  "entrypoints": {
+  "main": ["com.example.torchlightfix.TorchLightFix"]
+    },
   "depends": {
     "fabricloader": ">=0.19.3",
     "minecraft": "~26.2",

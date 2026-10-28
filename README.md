@@ -2,7 +2,7 @@
 
 TorchlightFix is a small Fabric mod that helps prevent darkness-based events from triggering in mods that check Minecraft's light levels.
 
-## ## What does it do?
+## What does it do?
 
 When you hold a light source in your main hand or off-hand, Torch Light Fix makes supported light-level checks return at least light level 5 (configurable) when the queried position is at your feet or eye height. Torches, lanterns, campfires, glowstone and more all count, and you can add or remove items in the config.
 

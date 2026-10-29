@@ -34,7 +34,7 @@ Use TorchlightFix alongside a mod that provides dynamic lighting for held torche
 2. Download the compiled `torchlightfix` JAR.
 3. Place the JAR in your Minecraft `mods` folder.
 4. Install any required dependencies for your other mods.
-5. Launch the game once. The mod will create config/torchlightfix.json on the first launch and automatically populate it with the default items. You can edit the file to change the light level and choose which items count as light sources. If you make any changes, restart the game. Test the mod with the mods you want to use.
+5. Launch the game once. The mod will create `config/torchlightfix.json` on the first launch and automatically populate it with the default items. You can edit the file to change the light level and choose which items count as light sources. If you make any changes, restart the game. Test the mod with the mods you want to use.
 
 ## Compatibility
 
